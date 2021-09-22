@@ -1,0 +1,85 @@
+.hero-section{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    align-content: center;
+}
+
+.hero-content{
+    // background: gray;
+    margin: 0 auto;
+    position: relative;
+    z-index: -1;
+    width: 82%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-vector{
+    width: 40%;
+    display: grid;
+    align-content: center;
+    img{
+        width: 100%;
+        position: relative;
+        bottom: -2em;
+    }
+}
+
+.hero-title{
+    width: 40%;
+    display: grid;
+    align-content: center;
+    color: $text-secondary;
+    span h2 img{
+        position: relative;
+        bottom: -.4em;
+    }
+    div{
+        display: grid;
+        align-content: center;
+        img{
+        width: 100%;
+        }
+    }
+    
+}
+
+.border-gradient{
+    width: 180px;
+    background-image: linear-gradient(103.71deg, rgba(243, 243, 243, 0.898) 80%, rgba(245, 245, 245, 0.837) 55.76%, rgba(238, 238, 238, 0.939) 91.71%);
+    padding: 3px;
+    border-radius: 12px;
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
+.hero-button{
+    text-align: center;
+    background: $c-primary;
+    padding: .8rem 1.5em;
+    border-radius: 10px;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .hero-content{
+        display: grid;
+    }
+    .hero-vector{
+        width: 70%;
+        margin: 0 auto;
+        order: 1;
+    }
+    .hero-title{
+        margin: 0 auto;
+        text-align: center;
+        width: 90%;
+        order: 2;
+    }
+    .border-gradient{
+        margin: 0 auto;
+    }
+}

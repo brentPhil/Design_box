@@ -1,0 +1,47 @@
+.nav-bar{
+    width: 100%;
+    position: fixed;
+}
+
+.nav-container{
+    max-width: 1300px;
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-logo{
+    width: 100px;
+    display: grid; 
+    align-content: center;
+    img{
+        width: 100%;
+    }
+}
+
+.nav-buttons{
+    ul{
+        width: 280px;
+        display: flex;
+        color: $text-primary;
+        justify-content: space-between;
+        align-content: center;
+        li{
+            list-style: none;
+            padding: .2em 1em;
+        }
+    }
+}
+
+.contact{
+    margin-left: 1em;
+    border: solid 2px;
+    position: relative;
+    top: -2px;
+    color: inherit;
+    border-radius: 25px;
+}
+
+

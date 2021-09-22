@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Sarpanch:wght@800&display=swap');
+$font-primary: 'Poppins', sans-serif;
+$heading: 'Sarpanch', sans-serif;
+body{
+    margin: 0;
+    font-family: $font-primary;
+}
+
+@import 'spacing';
+@import 'nav';
+@import 'hero';
+@import 'work';
+
